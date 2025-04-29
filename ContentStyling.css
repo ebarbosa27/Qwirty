@@ -2,15 +2,15 @@
   display: flex;
 }
 
-.contentContainer .categoryContainer {
-  width: 270px;
+.categoryContainer {
+  width: 220px;
   display: flex;
   flex-direction: column;
   gap: 5px;
-  margin: 10px;
+  margin: 0 10px;
 }
 
-.contentContainer .categoryContainer a {
+.categoryContainer a {
   background-color: #44b;
   color: white;
   padding: 0.5rem;
@@ -20,5 +20,61 @@
   text-transform: uppercase;
 }
 
-.contentContainer .shoppingItemsContainer {
+.shoppingItemsContainer {
+  display: block;
+}
+
+.shoppingItemsContainer .shoppingItem {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.shoppingItemsContainer .shoppingItem h2 {
+  background-color: #44b;
+  color: white;
+  margin: 0;
+  padding: 15px 10px;
+}
+
+.shoppingItemImage img {
+  flex-grow: 1;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.shoppingItem p {
+  flex-grow: 1;
+  padding: 0 10px;
+}
+
+.shoppingItem .shoppingItemActionBar {
+  background-color: #44b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.shoppingItemActionBar span {
+  font-weight: 500;
+}
+
+.shoppingItemActionBar button {
+  border: none;
+  background-color: #228;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+.shoppingItemActionBar button img {
+  width: 80%;
 }
