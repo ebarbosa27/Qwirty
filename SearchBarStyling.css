@@ -1,0 +1,44 @@
+.searchBarContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+  margin: 0 16px;
+}
+
+.searchBarContainer h1 {
+  color: #44b;
+}
+
+.searchBarContainer .searchBar {
+  flex-grow: 1;
+  display: flex;
+  gap: 0;
+
+  border: 1px solid #44b;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.searchBarContainer h3 {
+  background-color: rgb(212, 8, 8);
+  padding: 12px;
+  color: white;
+  font-style: bold;
+}
+
+.searchBarContainer .searchBar input {
+  flex-grow: 1;
+  border: none;
+}
+
+.searchBarContainer .searchBar button {
+  background-color: #44b;
+  border: none;
+}
+
+.searchBarContainer .searchBar img {
+  width: 1.3rem;
+  padding: 6px 6px 5px 5px;
+}
