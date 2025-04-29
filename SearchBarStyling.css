@@ -7,7 +7,9 @@
 }
 
 .searchBarContainer h1 {
+  font-weight: bolder;
   color: #44b;
+  margin-right: 20px;
 }
 
 .searchBarContainer .searchBar {
@@ -26,6 +28,7 @@
   padding: 12px;
   color: white;
   font-style: bold;
+  font-size: 16px;
 }
 
 .searchBarContainer .searchBar input {

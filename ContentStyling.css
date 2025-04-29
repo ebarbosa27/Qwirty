@@ -1,0 +1,24 @@
+.contentContainer {
+  display: flex;
+}
+
+.contentContainer .categoryContainer {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px;
+}
+
+.contentContainer .categoryContainer a {
+  background-color: #44b;
+  color: white;
+  padding: 0.5rem;
+
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contentContainer .shoppingItemsContainer {
+}
