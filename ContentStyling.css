@@ -21,11 +21,14 @@
 }
 
 .shoppingItemsContainer {
-  display: block;
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 10px;
 }
 
 .shoppingItemsContainer .shoppingItem {
-  width: 300px;
+  /* width: 300px; */
   display: flex;
   flex-direction: column;
   gap: 0;
