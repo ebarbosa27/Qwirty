@@ -1,0 +1,46 @@
+nav {
+  background-color: #44b;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 5px 10px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a:visited {
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav .leftNavBar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+nav .verticalLine {
+  width: 1px;
+  height: 1.5rem;
+  background-color: white;
+}
+
+nav .rightNavBar {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+nav .rightNavBar img {
+  height: 1.4rem;
+}
