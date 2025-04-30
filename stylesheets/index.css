@@ -9,9 +9,11 @@ body {
   gap: 15px;
   padding: 0;
   margin: 0;
-  max-width: 1500px;
 }
 
 main {
   flex-grow: 1;
+  margin: 0 10px;
+  max-width: 1500px;
+  align-self: center;
 }

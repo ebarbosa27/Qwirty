@@ -1,13 +1,13 @@
 .contentContainer {
-  display: flex;
+  display: grid;
+  grid-template-columns: 230px 1fr;
 }
 
 .categoryContainer {
-  width: 220px;
   display: flex;
   flex-direction: column;
   gap: 5px;
-  margin: 0 10px;
+  margin: 0 10px 0 0;
 }
 
 .categoryContainer a {
@@ -16,12 +16,12 @@
   padding: 0.5rem;
 
   font-size: 15px;
+  font-weight: 600;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 .shoppingItemsContainer {
-  flex-grow: 1;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   gap: 10px;
