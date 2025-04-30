@@ -1,0 +1,26 @@
+footer {
+  background-color: #44b;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footerInfoContainer {
+  margin: 10px;
+}
+
+.footerInfoContainer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footerInfoContainer a:hover {
+  text-decoration: underline;
+}
+
+.footerInfoContainer li {
+  list-style: none;
+  transform: translateX(-38px);
+}
