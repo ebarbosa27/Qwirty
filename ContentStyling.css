@@ -21,6 +21,11 @@
   text-transform: uppercase;
 }
 
+.categoryContainer a:hover {
+  cursor: pointer;
+  background-color: #228;
+}
+
 .shoppingItemsContainer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -76,6 +81,11 @@
   border-radius: 100%;
   padding-right: 5px;
   padding-top: 5px;
+}
+
+.shoppingItemActionBar button:hover {
+  background-color: #44b;
+  cursor: pointer;
 }
 
 .shoppingItemActionBar button img {
